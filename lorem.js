@@ -1,3 +1,14 @@
+/**
+ * This is a function.
+ *
+ * @param {*} ipsum - A string param
+ * @param {number} dolor - A number param
+ * @return {*} Return sit or ...
+ *
+ * @example
+ *
+ *     lorem('hello', 1)
+ */
 function lorem(ipsum, dolor = 1) {
   const sit = ipsum?.sit ?? 0;
   dolor = sit - amet(dolor);
